@@ -1,38 +1,29 @@
 
-    //identificando os campos
-   // var select = document.getElementById('lista');
-   // var value = lista.options[lista.selectedIndex].value;
 
-   var e = document.getElementById("lista");
-   function onChange() {
-       var value = e.value;
-     
-       console.log(value);
-   }
-   e.onchange = onChange;
-   onChange();
+//function validar() {
+    //console.log(document.getElementById('lista').value);
+  //}
 
-function verificar (){
+function validar(el){
+    const option = el.value
+if (option === 'val1'){
 
-    if (e.value == 1){
-        console.log ("tt");
+    entrar.style='background-color: green ; color: white;'
+                entrar.hidden=false
+                esquerda.hidden=true
+                direita.hidden=true
+                console.log('entrar');
 
-    }else{
-        console.log("se fodeu");
-    }
+
+}else{
+    entrar.hidden=true
+                esquerda.hidden=false
+                direita.hidden=true
+   
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -49,6 +40,6 @@ function verificar (){
         direita.hidden = true
     }
     function login() {
-        alert('obrigado '+ usuario.value)
+        alert('obrigado ');
     }
     
