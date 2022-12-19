@@ -6,6 +6,7 @@
 
 function validar(el){
     const option = el.value
+
 if (option === 'val1'){
 
     entrar.style='background-color: green ; color: white;'
@@ -40,6 +41,7 @@ if (option === 'val1'){
         direita.hidden = true
     }
     function login() {
-        alert('obrigado ');
+        alert(' Também te amo muito, só queria te lembrar disso ');
+        window.open("https://youtu.be/hvbuYbwrpxc"); // abrir página
     }
     
